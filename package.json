@@ -3,10 +3,10 @@
   "description": "Live stream simulator with error injection.",
   "version": "0.2.0",
   "author": "mroca",
-  "bin": "./murphy",
+  "bin": "./murphy.js",
   "scripts": {
     "test": "node ./test/live.test.js",
-    "start": "node murphy",
+    "start": "node murphy.js",
     "throttle": "node ./switcher/throttle-server.js ./switcher/network-trace.txt"
   },
   "dependencies": {
