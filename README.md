@@ -1,21 +1,31 @@
 # NOTICE
 
-The main murphy repository is now hosted at the following location: https://github.com/videojs/murphy
+**THIS IS A FORK!** The main murphy repository is hosted at: https://github.com/videojs/murphy
 
-# murphy
+# murphy - Simulating livestreams for testing
+
 Proactively making Murphy's law a reality...
+
+See an introduction: https://youtu.be/Jwrzpl2NESI
+
+## Install
+
+```sh
+npm install @videojs/murphy
+```
+## Install
 
 ```sh
 npm install @videojs/murphy
 ```
 
 ## How to use
-Start the server using 'npm start'
-Run the unit tests using 'npm test'
+Start the server using `npm start`
+Run the unit tests using `npm test`
 
 ## Live stream error simulator
 Murphy, the live stream error simulator, will take an HLS VOD playlist and simulate a
-shifting livestream resource window.  
+shifting livestream resource window.
 
 ## Online manifest
 For external master url use the master path and the url query parameter like this
