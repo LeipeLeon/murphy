@@ -1,27 +1,24 @@
 # NOTICE
 
-**THIS IS A FORK!** The main murphy repository is hosted at: https://github.com/videojs/murphy
+**THIS IS A FORK!** The main murphy repository is hosted at: <https://github.com/videojs/murphy>
 
 # murphy - Simulating livestreams for testing
 
 Proactively making Murphy's law a reality...
 
-See an introduction: https://youtu.be/Jwrzpl2NESI
+See an introduction: <https://youtu.be/Jwrzpl2NESI>
 
 ## Install
 
-```sh
-npm install @videojs/murphy
-```
-## Install
-
-```sh
-npm install @videojs/murphy
+```shell
+git clone git@github.com:Memoriam-tv/murphy.git
+cd murphy
+yarn install
 ```
 
 ## How to use
-Start the server using `npm start`
-Run the unit tests using `npm test`
+Start the server using `yarn start`
+Run the unit tests using `yarn test`
 
 ## Live stream error simulator
 Murphy, the live stream error simulator, will take an HLS VOD playlist and simulate a
