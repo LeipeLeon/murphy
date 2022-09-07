@@ -11,12 +11,12 @@ test('getHeaderObjects: Get header file data into object', function(t) {
   var manifestHeader;
   fs.readFile('./data/renditions/samples/two/sp_manifest2.m3u8', function (error, data) {
     manifestHeader = livehls.getHeaderObjects(data.toString());
-    t.equal(manifestHeader.PlaylistType.tag, '#EXT-X-PLAYLIST-TYPE', 'PlaylistType tag matches');
-    t.equal(manifestHeader.PlaylistType.value, '', 'PlaylistType value matches');
-    t.equal(manifestHeader.MediaSequence.tag, '#EXT-X-MEDIA-SEQUENCE', 'MediaSequence tag matches');
-    t.equal(manifestHeader.MediaSequence.value, '2', 'MediaSequence value matches');
-    t.equal(manifestHeader.TargetDuration.tag, '#EXT-X-TARGETDURATION', 'MediaSequence tag matches');
-    t.equal(manifestHeader.TargetDuration.value, '10', 'MediaSequence value matches');
+    t.equal(manifestHeader.PlaylistType.tag,     '#EXT-X-PLAYLIST-TYPE',  'PlaylistType tag matches');
+    t.equal(manifestHeader.PlaylistType.value,   '',                      'PlaylistType value matches');
+    t.equal(manifestHeader.MediaSequence.tag,    '#EXT-X-MEDIA-SEQUENCE', 'MediaSequence tag matches');
+    t.equal(manifestHeader.MediaSequence.value,  '2',                     'MediaSequence value matches');
+    t.equal(manifestHeader.TargetDuration.tag,   '#EXT-X-TARGETDURATION', 'MediaSequence tag matches');
+    t.equal(manifestHeader.TargetDuration.value, '10',                    'MediaSequence value matches');
   });
   t.end();
 });
